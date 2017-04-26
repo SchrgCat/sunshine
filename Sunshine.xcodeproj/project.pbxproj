@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2005E04B1E574E7C005C173D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E04A1E574E7C005C173D /* RootViewController.swift */; };
+		2005E0501E57B530005C173D /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E04F1E57B530005C173D /* DayViewController.swift */; };
+		2005E0521E57B53D005C173D /* NowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E0511E57B53D005C173D /* NowViewController.swift */; };
+		2005E0541E57B549005C173D /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E0531E57B549005C173D /* WeekViewController.swift */; };
+		2005E0581E57B678005C173D /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E0571E57B678005C173D /* DayCollectionViewCell.swift */; };
+		2005E05A1E57B688005C173D /* NowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E0591E57B688005C173D /* NowCollectionViewCell.swift */; };
+		2005E05C1E57B694005C173D /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E05B1E57B694005C173D /* WeekCollectionViewCell.swift */; };
+		2005E05F1E57C1AE005C173D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E05E1E57C1AE005C173D /* Configuration.swift */; };
+		2005E0621E57C4B8005C173D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E0611E57C4B8005C173D /* DataManager.swift */; };
 		2016E6C21E49F0C300D328EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016E6C11E49F0C300D328EC /* AppDelegate.swift */; };
-		2016E6C41E49F0C300D328EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016E6C31E49F0C300D328EC /* ViewController.swift */; };
 		2016E6C91E49F0C300D328EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016E6C81E49F0C300D328EC /* Assets.xcassets */; };
 		2016E6D71E49F0C300D328EC /* SunshineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016E6D61E49F0C300D328EC /* SunshineTests.swift */; };
 		2016E6E71E4A00E300D328EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2016E6E61E4A00E300D328EC /* Main.storyboard */; };
@@ -26,9 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2005E04A1E574E7C005C173D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2005E04F1E57B530005C173D /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		2005E0511E57B53D005C173D /* NowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowViewController.swift; sourceTree = "<group>"; };
+		2005E0531E57B549005C173D /* WeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		2005E0571E57B678005C173D /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		2005E0591E57B688005C173D /* NowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowCollectionViewCell.swift; sourceTree = "<group>"; };
+		2005E05B1E57B694005C173D /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
+		2005E05E1E57C1AE005C173D /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		2005E0611E57C4B8005C173D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2016E6BE1E49F0C300D328EC /* Sunshine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunshine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2016E6C11E49F0C300D328EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2016E6C31E49F0C300D328EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2016E6C81E49F0C300D328EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2016E6CD1E49F0C300D328EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2016E6D21E49F0C300D328EC /* SunshineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunshineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +72,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2005E04C1E57B48D005C173D /* Day View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2005E04F1E57B530005C173D /* DayViewController.swift */,
+			);
+			path = "Day View Controller";
+			sourceTree = "<group>";
+		};
+		2005E04D1E57B491005C173D /* Now View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2005E0511E57B53D005C173D /* NowViewController.swift */,
+			);
+			path = "Now View Controller";
+			sourceTree = "<group>";
+		};
+		2005E04E1E57B494005C173D /* Week View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2005E0531E57B549005C173D /* WeekViewController.swift */,
+			);
+			path = "Week View Controller";
+			sourceTree = "<group>";
+		};
+		2005E0551E57B60C005C173D /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2005E0571E57B678005C173D /* DayCollectionViewCell.swift */,
+				2005E0591E57B688005C173D /* NowCollectionViewCell.swift */,
+				2005E05B1E57B694005C173D /* WeekCollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		2005E05D1E57C166005C173D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2005E05E1E57C1AE005C173D /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2005E0601E57C48B005C173D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2005E0611E57C4B8005C173D /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		2016E6B51E49F0C300D328EC = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +143,8 @@
 		2016E6C01E49F0C300D328EC /* Sunshine */ = {
 			isa = PBXGroup;
 			children = (
+				2005E0601E57C48B005C173D /* Managers */,
+				2005E05D1E57C166005C173D /* Configuration */,
 				2016E6E51E49F44D00D328EC /* Storyboards */,
 				2016E6E41E49F27000D328EC /* Resources */,
 				2016E6E31E49F26D00D328EC /* Supporting Files */,
@@ -106,7 +174,10 @@
 		2016E6E21E49F26600D328EC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2016E6C31E49F0C300D328EC /* ViewController.swift */,
+				2005E04E1E57B494005C173D /* Week View Controller */,
+				2005E04D1E57B491005C173D /* Now View Controller */,
+				2005E04C1E57B48D005C173D /* Day View Controller */,
+				20B94EB61E4BD86B00A11E58 /* Root View Controller */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -134,6 +205,15 @@
 				2016E6E81E4A012600D328EC /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		20B94EB61E4BD86B00A11E58 /* Root View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2005E0551E57B60C005C173D /* Collection View Cells */,
+				2005E04A1E574E7C005C173D /* RootViewController.swift */,
+			);
+			path = "Root View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +319,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2016E6C41E49F0C300D328EC /* ViewController.swift in Sources */,
+				2005E0541E57B549005C173D /* WeekViewController.swift in Sources */,
+				2005E0621E57C4B8005C173D /* DataManager.swift in Sources */,
+				2005E0581E57B678005C173D /* DayCollectionViewCell.swift in Sources */,
+				2005E05C1E57B694005C173D /* WeekCollectionViewCell.swift in Sources */,
+				2005E05F1E57C1AE005C173D /* Configuration.swift in Sources */,
+				2005E04B1E574E7C005C173D /* RootViewController.swift in Sources */,
+				2005E0521E57B53D005C173D /* NowViewController.swift in Sources */,
 				2016E6C21E49F0C300D328EC /* AppDelegate.swift in Sources */,
+				2005E05A1E57B688005C173D /* NowCollectionViewCell.swift in Sources */,
+				2005E0501E57B530005C173D /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +515,7 @@
 				2016E6DD1E49F0C300D328EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2016E6DE1E49F0C300D328EC /* Build configuration list for PBXNativeTarget "SunshineTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +524,7 @@
 				2016E6E01E49F0C300D328EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
